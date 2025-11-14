@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.main{
+    background-color: darkslategray;
+}
+body {
+    background-color:rgb(3, 34, 68);
+    color: whitesmoke;
+}
+
+.header {
+   padding: 10px;
+}
+.header p {
+    display: flex;
+    justify-content: center;
+}
+.contact {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    
+}
+.contact h3 {
+    display: flex;
+    align-items: end;
+}
+.contact a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: whitesmoke;
+}
