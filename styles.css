@@ -3,10 +3,10 @@
 }
 
 .main{
-    background-color: darkslategray;
+    background-color: #000919;
 }
 body {
-    background-color:rgb(3, 34, 68);
+    background-color: #001D3F;
     color: whitesmoke;
 }
 
@@ -32,4 +32,16 @@ body {
     flex-direction: column;
     text-decoration: none;
     color: whitesmoke;
+}
+
+.link1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 290px;
+}
+
+.link1 a {
+     color: whitesmoke;
+    text-decoration: none;
 }
