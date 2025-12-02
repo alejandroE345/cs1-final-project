@@ -9,8 +9,7 @@
     background-color: #000919;
 }
 body {
-   background-image: url("background1.png");
-   background-size: cover;
+    background-color: #001D3F;
     color: whitesmoke;
     font-family:'Oswald';
     transition: 600ms;
@@ -41,6 +40,9 @@ body {
 }
 
 .link1 {
+    background-color: #04356A;
+    border: solid 20px #04356A;
+    border-radius: 9px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -55,6 +57,9 @@ body {
 }
 
 .link2 {
+    background-color: #04356A;
+    border: solid 20px #04356A;
+    border-radius: 9px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -66,7 +71,7 @@ body {
     font-size: 20px;
     color: whitesmoke;
     text-decoration: none;
-    background-color: rgb(17, 80, 147);
+    box-sizing:border-box;
 }
 
 .footer {
