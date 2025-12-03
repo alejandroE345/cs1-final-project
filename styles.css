@@ -82,3 +82,35 @@ body {
     left: 0;
 }
 
+.home a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+}
+
+.header2 {
+    position: relative;
+    bottom: -20px;
+    font-size: 20px;
+}
+
+.mc {
+    position: fixed;
+}
+
+.mc h2 {
+    font-size: 50px;
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+
+.mc p {
+    position: relative;
+    bottom: -90px;
+}
+
+
