@@ -110,7 +110,12 @@ body {
 
 .mc p {
     position: relative;
-    bottom: -90px;
+    bottom: -60px;
+}
+
+.mc img {
+    position: relative;
+    left: 41%;
 }
 
 
