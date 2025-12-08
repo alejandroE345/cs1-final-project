@@ -105,17 +105,18 @@ body {
     font-size: 50px;
     display: flex;
     position: relative;
-    left: 40%;
+    left: 10%;
 }
 
 .mc p {
     position: relative;
-    bottom: -60px;
+    bottom: 300px;
+
 }
 
 .mc img {
     position: relative;
-    left: 41%;
+    left: 10%;
 }
 
 
