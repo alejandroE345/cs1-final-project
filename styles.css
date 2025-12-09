@@ -7,12 +7,13 @@
 
 .main{
     background-color: #000919;
+    transition: 600ms;
 }
 body {
     background-color: #001D3F;
     color: whitesmoke;
     font-family:'Oswald';
-    transition: 600ms;
+    transition: 500ms;
 }
 
 .header {
@@ -106,17 +107,51 @@ body {
     display: flex;
     position: relative;
     left: 10%;
+    animation: fade 600ms;
 }
 
 .mc p {
     position: relative;
     bottom: 300px;
+    background-color:#00091985;
+    margin-left: 29%;
+    top: 20%;
+    font-size: 25px;
+    border-radius: 10px;
+    animation: slide-in-right 1s;
+}
 
+@keyframes slide-in-right {
+    
+}
+
+
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .mc img {
     position: relative;
     left: 10%;
+    animation: fade 600ms;
+}
+
+.fun-fact {
+    position: fixed;
+}
+
+.fun-fact h3 {
+
 }
 
 
