@@ -105,24 +105,26 @@ body {
 .mc h2 {
     font-size: 50px;
     display: flex;
-    position: relative;
-    left: 10%;
-    animation: fade 600ms;
+    position: fixed;
+    left: 5%;
+    animation: fade 900ms;
 }
 
 .mc p {
-    position: relative;
-    bottom: 300px;
+    position: fixed;
     background-color:#00091985;
-    margin-left: 29%;
-    top: 20%;
-    font-size: 25px;
-    border-radius: 10px;
-    animation: slide-in-right 1s;
+    left: 25%;
+    top: 35%;
+    font-size: 28px;
+    border-radius: 6px;
+    animation: slide-in-right 2s;
 }
 
 @keyframes slide-in-right {
-    
+    0% {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
 }
 
 
@@ -141,17 +143,26 @@ body {
 }
 
 .mc img {
-    position: relative;
-    left: 10%;
-    animation: fade 600ms;
+    position: fixed;
+    left: 6%;
+    bottom: 25%;
+    animation: fade 900ms;
+    border: double whitesmoke;
 }
 
 .fun-fact {
     position: fixed;
+    left: 600px;
+    bottom: 69%;
+    animation: fade 1s;
+    background-color:#00091985;
+    animation: slide-in-right 2s;
+
 }
 
-.fun-fact h3 {
-
+.guilty-spark {
+    position: absolute;
+    bottom: -10%;
 }
 
 
