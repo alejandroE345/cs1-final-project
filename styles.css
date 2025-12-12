@@ -144,14 +144,14 @@ body {
 
 .mc img {
     position: fixed;
-    left: 6%;
     bottom: 25%;
+    left: 6%;
     animation: fade 900ms;
     border: double whitesmoke;
 }
 
 .fun-fact {
-    position: fixed;
+    position: absolute;
     left: 600px;
     bottom: 69%;
     animation: fade 1s;
