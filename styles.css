@@ -106,7 +106,6 @@ body {
     font-size: 50px;
     display: flex;
     position: fixed;
-    bottom: 3%;
     left: 5%;
     animation: fade 900ms;
     color: whitesmoke;
@@ -146,7 +145,7 @@ body {
 
 .mc img {
     position: fixed;
-    bottom: 13%;
+    bottom: 25%;
     left: 6%;
     animation: fade 900ms;
     border: double whitesmoke;
@@ -162,7 +161,52 @@ body {
 
 }
 
+.header-3 {
+    font-size: 20px;
+    bottom: -20%;
+    position: relative;
+}
+
+
+.home-2 a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 
 .covenant {
+    position: fixed;
+}
+
+.covenant h2 {
+    font-size: 50px;
+    bottom: 15px;
+    animation: slide-in-right 2s;
+}
+
+.covenant p {
+    position: fixed;
+    background-color:#00091985;
+    left: 25%;
+    top: 33%;
+    font-size: 28px;
+    border-radius: 6px;
+    animation: slide-in-right 2s;
+
+}
+
+.covenant img {
+    animation: slide-in-right 2s;
+}
+
+.fun-fact-2 {
     position: absolute;
+    left: 700px;
+    bottom: 69%;
+    animation: fade 1s;
+    background-color:#00091985;
+    animation: slide-in-right 2s;
 }
